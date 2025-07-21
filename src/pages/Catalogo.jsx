@@ -97,21 +97,12 @@ const Catalogo = () => {
   return (
     <div className="catalogo-container">
       <header className="catalogo-header">
-        <div className="header-content">
-          <h1>Catálogo de Produtos</h1>
-          <p>Gerencie e visualize produtos do seu catálogo</p>
-        </div>
-        <button 
-          className="btn-reset"
-          onClick={resetarCatalogo}
-          title="Resetar catálogo para dados iniciais"
-        >
-          🔄 Reset
-        </button>
+        <h1>Catálogo de Produtos</h1>
+        <p>Gerencie e visualize produtos do seu catálogo</p>
       </header>
       
       <main className="catalogo-main">
-        <FormularioProduto onAdicionarProduto={adicionarProduto} />
+        <FormularioProduto onAdicionarProduto={adicionarProduto} onResetarCatalogo={resetarCatalogo} />
         <ListaProdutos produtos={produtos} carregando={carregando} />
       </main>
     </div>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 import './FormularioProduto.css';
 
-const FormularioProduto = ({ onAdicionarProduto }) => {
+const FormularioProduto = ({ onAdicionarProduto, onResetarCatalogo }) => {
   const [formData, setFormData] = useState({
     nome: '',
     preco: '',
@@ -177,13 +177,23 @@ const FormularioProduto = ({ onAdicionarProduto }) => {
         <button type="submit" className="btn-adicionar">
           Adicionar Produto
         </button>
+        
+        <button 
+          type="button" 
+          className="btn-reset-formulario"
+          onClick={onResetarCatalogo}
+          title="Resetar catálogo para dados iniciais"
+        >
+          🔄 Resetar Catálogo
+        </button>
       </form>
     </div>
   );
 };
 
 FormularioProduto.propTypes = {
-  onAdicionarProduto: PropTypes.func.isRequired
+  onAdicionarProduto: PropTypes.func.isRequired,
+  onResetarCatalogo: PropTypes.func.isRequired
 };
 
 export default FormularioProduto;

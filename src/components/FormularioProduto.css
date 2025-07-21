@@ -8,16 +8,6 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}ner {
-    background: #fff;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-    max-width: 500px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .formulario-container h2 {
@@ -105,6 +95,31 @@
     transform: translateY(0);
 }
 
+.btn-reset-formulario {
+    background: #f3f4f6;
+    color: #6b7280;
+    border: 1px solid #d1d5db;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.btn-reset-formulario:hover {
+    background: #e5e7eb;
+    color: #374151;
+    border-color: #9ca3af;
+    transform: translateY(-1px);
+}
+
+.btn-reset-formulario:active {
+    transform: translateY(0);
+}
+
 /* Container quando o formulário está fechado */
 .formulario-container-fechado {
     display: flex;
@@ -164,4 +179,109 @@
 .btn-fechar-formulario:hover {
     background: #f3f4f6;
     color: #374151;
+}
+
+/* Responsividade do Formulário */
+@media (max-width: 768px) {
+    .formulario-container {
+        max-width: 100%;
+        padding: 25px 20px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    
+    .formulario-header h2 {
+        font-size: 22px;
+    }
+    
+    .btn-expandir-formulario {
+        padding: 14px 28px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    
+    .campo input,
+    .campo textarea {
+        padding: 12px 14px;
+        font-size: 16px; /* Previne zoom no iOS */
+    }
+    
+    .btn-adicionar,
+    .btn-reset-formulario {
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario-container {
+        padding: 20px 15px;
+        margin-bottom: 25px;
+        border-radius: 8px;
+    }
+    
+    .formulario-header h2 {
+        font-size: 20px;
+    }
+    
+    .btn-expandir-formulario {
+        padding: 12px 24px;
+        font-size: 15px;
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .campo {
+        gap: 15px;
+    }
+    
+    .campo label {
+        font-size: 13px;
+    }
+    
+    .campo input,
+    .campo textarea {
+        padding: 10px 12px;
+        border-radius: 6px;
+    }
+    
+    .campo textarea {
+        min-height: 80px;
+    }
+    
+    .btn-adicionar,
+    .btn-reset-formulario {
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 320px) {
+    .formulario-container {
+        padding: 15px 10px;
+        margin-bottom: 20px;
+    }
+    
+    .formulario-header {
+        margin-bottom: 20px;
+    }
+    
+    .formulario-header h2 {
+        font-size: 18px;
+    }
+    
+    .btn-fechar-formulario {
+        font-size: 18px;
+        padding: 2px;
+    }
+    
+    .btn-expandir-formulario {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .formulario-produto {
+        gap: 15px;
+    }
 }
