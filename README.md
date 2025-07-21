@@ -109,6 +109,29 @@ src/
 - `npm run build` - Cria build de produção
 - `npm run preview` - Visualiza o build de produção
 - `npm run lint` - Executa verificação de código
+- `npm run deploy` - Gera build para produção
+
+## 🌐 Deploy e GitHub Pages
+
+### Deploy Automático
+O projeto está configurado com **GitHub Actions** para deploy automático no GitHub Pages:
+
+- **Workflow**: `.github/workflows/deploy.yml`
+- **Trigger**: Push na branch `main`
+- **Build**: Vite build otimizado
+- **Deploy**: Automático no GitHub Pages
+
+### Configurações Importantes
+
+1. **vite.config.js**: Configurado com `base` correto para GitHub Pages
+2. **GitHub Actions**: Workflow para build e deploy automático
+3. **Permissões**: Pages configurado no repositório
+
+### Problemas Corrigidos
+
+- ✅ **Página em branco**: Corrigido `base` no Vite config
+- ✅ **Deploy manual**: Automatizado com GitHub Actions
+- ✅ **Build otimizado**: Configuração de produção aplicada
 
 ## 🎨 Interface e Design
 
