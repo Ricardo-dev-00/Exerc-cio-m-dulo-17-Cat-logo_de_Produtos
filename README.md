@@ -1,19 +1,22 @@
 # 🛍️ Catálogo de Produtos React
 
-[![React](https://img.shields.io/badge/React-18.0-blue?logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite)](https://vitejs.dev/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![React](https://img.shields.io/badge/React-18.0-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-green?logo=github&logoColor=white)](https://ricardo-dev-00.github.io/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Uma aplicação front-end React moderna para gerenciar um catálogo de produtos com interface intuitiva, validação de formulários e persistência de dados.
+> 🚀 Uma aplicação front-end React moderna para gerenciar um catálogo de produtos com interface intuitiva, formulários controlados, validação em tempo real e persistência de dados no LocalStorage.
 
 ## 🎯 Demonstração
 
 ![Catálogo de Produtos](https://via.placeholder.com/800x400/e0f2fe/374151?text=Cat%C3%A1logo+de+Produtos+React)
 
 ### 🔗 Links do Projeto
-- **Repositório**: [git@github.com:Ricardo-dev-00/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos.git](https://github.com/Ricardo-dev-00/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos)
-- **Deploy**: *Em breve*
+- **🌐 Demo Online**: [https://ricardo-dev-00.github.io/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos/](https://ricardo-dev-00.github.io/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos/)
+- **📂 Repositório**: [GitHub](https://github.com/Ricardo-dev-00/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos)
+- **👨‍💻 Desenvolvedor**: [LinkedIn - Ricardo Vieira](https://www.linkedin.com/in/ricardo-vieira-a29493330/)
 
 ## 📋 Sobre o Projeto
 
@@ -23,12 +26,17 @@ Este projeto foi desenvolvido como parte do **Módulo 17** do curso, aplicando c
 
 - 🏪 **Catálogo dinâmico** com listagem responsiva de produtos
 - ➕ **Formulário expansível** para adicionar novos produtos
-- 💾 **Persistência local** com LocalStorage
+- 💾 **Persistência local** com LocalStorage (dados salvos entre sessões)
 - ✅ **Validação em tempo real** dos formulários
-- 🏷️ **Badge premium** para produtos de alto valor
-- 🎨 **Interface moderna** com gradientes pastéis
-- 📱 **Design responsivo** para todos os dispositivos
+- 🏷️ **Badge premium** para produtos de alto valor (acima de R$ 2.000)
+- 🎨 **Interface moderna** com gradientes pastéis e animações
+- 📱 **Design responsivo** para todos os dispositivos (mobile-first)
 - 🔄 **Reset de dados** para voltar ao estado inicial
+- 🛒 **Ações nos produtos** (Ver Mais, Comprar)
+- ⚡ **Performance otimizada** com componentes reutilizáveis
+
+### 🌟 **Experimente Agora!**
+👆 **[Acesse a aplicação online](https://ricardo-dev-00.github.io/Exerc-cio-m-dulo-17-Cat-logo_de_Produtos/)** e teste todas as funcionalidades!
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -177,10 +185,11 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-**Ricardo** - [@Ricardo-dev-00](https://github.com/Ricardo-dev-00)
+**Ricardo Vieira** - [@Ricardo-dev-00](https://github.com/Ricardo-dev-00)
 
-- GitHub: [Ricardo-dev-00](https://github.com/Ricardo-dev-00)
-- LinkedIn: [Conecte-se comigo](https://linkedin.com/in/ricardo-dev-00)
+- 🐙 GitHub: [Ricardo-dev-00](https://github.com/Ricardo-dev-00)
+- 💼 LinkedIn: [Ricardo Vieira](https://www.linkedin.com/in/ricardo-vieira-a29493330/)
+- 📧 Email: Disponível no perfil do LinkedIn
 
 ## 🙏 Agradecimentos
 
